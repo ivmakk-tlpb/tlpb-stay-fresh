@@ -15,16 +15,16 @@ Stay Fresh is a mod for the Steam game *The Last Plague: Blight*. In the game, f
 - **Spoils in.** The tooltip of each item that spoils shows the time left at its current rate, such as "Spoils in 1 day 6 hours". The time counts the place of the item, the cold, the covered container, the salt, and the settings.
 - **Fair play.** The settings add to the world option "Item Decay Rate Factor" and to the cold weather. Raw food, the Cured Sausage, the Blighted Fungus and the Slime that give off Blight, the disinfectants, the blight zones, and the Blight disease from any other source stay as in the game. Each part has its own setting, and `1` gives the game value. A spoilage setting of `0` stops only the loss of condition: salt preservation, smoking, and fermentation still work.
 
-## Spoil times
+## Spoil times (days)
 
-| Item | Game | 5x | 10x |
-|---|---|---|---|
-| Raw Deer Meat | 8 hours | 1.6 days | 3.2 days |
-| Cooked Wolf Meat | 19 hours | 3.9 days | 7.7 days |
-| Piece of Jerky | 7.7 days | 39 days | 77 days |
-| Mushrooms | 35 hours | 7.2 days | 14.5 days |
-| Deer Hide | 40 hours | 8.3 days | 16.5 days |
-| Carcass in the world | 28 hours | 5.8 days | 11.6 days |
+| Item | Game (1x) | 5x | 10x | 20x |
+|---|---|---|---|---|
+| Raw Deer Meat | 0.3 | 1.6 | 3.2 | 6.4 |
+| Cooked Wolf Meat | 0.8 | 3.9 | 7.7 | 15.4 |
+| Piece of Jerky | 7.7 | 39 | 77 | 154 |
+| Mushrooms | 1.4 | 7.2 | 14.5 | 29 |
+| Deer Hide | 1.7 | 8.3 | 16.5 | 33 |
+| Carcass in the world | 1.2 | 5.8 | 11.6 | 23 |
 
 Below 5 °C, the cold slows spoilage further, in the game and with the mod. The mod uses 5x by default, and you can set the slowdown for food and for animal products separately, from 1 (as in the game) to 20, or 0 for no spoilage (see [CONFIG.md](CONFIG.md)).
 
@@ -43,7 +43,7 @@ Made and tested for single player. Co-op is not tested.
 
 ## Install
 
-Download the zip from [GitHub Releases](https://github.com/ivmakk-tlpb/tlpb-stay-fresh/releases).
+Download the zip from [Nexus Mods](https://www.nexusmods.com/thelastplagueblight/mods/13) or [GitHub Releases](https://github.com/ivmakk-tlpb/tlpb-stay-fresh/releases).
 
 1. Install the [BepInEx Pack for The Last Plague: Blight](https://www.nexusmods.com/thelastplagueblight/mods/9). If no other mods were installed before, start the game once so BepInEx finishes setup, then quit.
 2. Extract this mod's zip into the game folder (the folder with the game .exe). The DLL lands in `BepInEx\plugins`. Full path example:
