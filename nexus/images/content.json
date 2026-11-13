@@ -1,0 +1,39 @@
+{
+  "nexus": {
+    "name": "Stay Fresh",
+    "author": "ivmakk",
+    "category": "Miscellaneous",
+    "summary": "Cooking and smoking make clean food, and food, hides, and carcasses last longer."
+  },
+  "thumbnail": {
+    "out": "01-thumb.jpg",
+    "screenshot": "cooked-on.jpg",
+    "crop": [1160, 380, 1920, 1080],
+    "layout": {
+      "gradient": "linear-gradient(90deg, rgba(10,11,9,0.99) 0%, rgba(10,11,9,0.97) 38%, rgba(10,11,9,0.85) 44%, rgba(10,11,9,0.62) 49%, rgba(10,11,9,0.4) 54%, rgba(10,11,9,0.22) 60%, rgba(10,11,9,0.09) 67%, rgba(10,11,9,0.02) 74%, rgba(10,11,9,0) 80%)"
+    },
+    "title": [{ "text": "Stay" }, { "text": "Fresh", "accent": true }],
+    "rows": [
+      {
+        "icon": "resources.assets/disease",
+        "iconColor": "#8fa31a",
+        "iconSlash": "#c8321e",
+        "caption": [{ "text": "Cooking removes Blight", "accent": true }, { "text": "from your food" }]
+      },
+      {
+        "icon": "resources.assets/Texture2D/wolf_meat_raw",
+        "caption": [{ "text": "Food, meat, carcasses", "accent": true }, { "text": "spoil 5x slower" }]
+      }
+    ]
+  },
+  "background": {
+    "out": "banner.jpg",
+    "screenshot": "camp.jpg",
+    "crop": [900, 0, 2940, 840],
+    "darken": [
+      "linear-gradient(90deg, rgba(12,12,14,0.92) 0%, rgba(12,12,14,0) 48%)",
+      "linear-gradient(180deg, rgba(12,12,14,0) 59%, rgba(12,12,14,0.6) 100%)"
+    ],
+    "overlays": []
+  }
+}

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Plugin.cs" Link="Plugin.cs" />
+    <Compile Include="..\..\src\AnimalProducts.cs" Link="AnimalProducts.cs" />
+    <Compile Include="..\..\src\SpoilageRule.cs" Link="SpoilageRule.cs" />
+    <Compile Include="..\..\src\ContainerRule.cs" Link="ContainerRule.cs" />
+    <Compile Include="..\..\src\SpoilageTime.cs" Link="SpoilageTime.cs" />
+    <Compile Include="..\..\src\FieldHash.cs" Link="FieldHash.cs" />
+    <Compile Include="..\..\src\TooltipOrder.cs" Link="TooltipOrder.cs" />
+    <Compile Include="..\..\src\Patches\TooltipPatches.cs" Link="Patches\TooltipPatches.cs" />
+    <Compile Include="..\..\src\FrameTimer.cs" Link="FrameTimer.cs" />
+    <Compile Include="..\..\src\Game\CreatureData.cs" Link="Game\CreatureData.cs" />
+    <Compile Include="..\..\src\Patches\SpoilagePatches.cs" Link="Patches\SpoilagePatches.cs" />
+    <Compile Include="..\..\src\Patches\CookingPatches.cs" Link="Patches\CookingPatches.cs" />
+    <Compile Include="..\..\src\Patches\SmokingPatches.cs" Link="Patches\SmokingPatches.cs" />
+    <Compile Include="..\..\src\Patches\PreservationPatches.cs" Link="Patches\PreservationPatches.cs" />
+    <Compile Include="..\..\src\Patches\FermentationPatches.cs" Link="Patches\FermentationPatches.cs" />
+    <Compile Include="..\..\src\Game\ItemDefinitions.cs" Link="Game\ItemDefinitions.cs" />
+    <Compile Include="..\..\src\Patches\CarcassPatches.cs" Link="Patches\CarcassPatches.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit.v3" Version="4.0.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>

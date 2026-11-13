@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Build settings and the common game references live in Directory.Build.props. -->
+  <PropertyGroup>
+    <AssemblyName>StayFresh</AssemblyName>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <!-- The text of the tooltip lines (TextMeshPro). -->
+  <ItemGroup>
+    <_Ref Include="$(BepInExInterop)\Unity.TextMeshPro.dll" />
+    <Reference Include="@(_Ref)">
+      <HintPath>%(FullPath)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
